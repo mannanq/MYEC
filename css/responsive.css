@@ -1,0 +1,525 @@
+/*
+
+  Template Name: Mosque - Responsive html5 template
+  Author: http://wprand.com/
+  Version: 1.0
+
+  NOTE: This is responsive style sheet of template.
+  
+*/
+
+/* ==========================================================================
+	Max width :1499px
+========================================================================== */
+@media only screen and (max-width: 1499px) {
+	/* hero slider */
+	.slide-height {
+	    height: 750px;
+	}
+}
+
+
+/* ==========================================================================
+	Max width :1199px
+========================================================================== */
+@media only screen and (max-width: 1199px) {
+	/* main header */
+	.primary-menu ul li + li {
+		margin-left: 35px;
+	}
+	
+	/* hero slider */
+	.slide-height {
+	    height: 650px;
+	}
+	.slide-content h2 {
+	    font-size: 26px;
+	    line-height: 36px;
+	}
+	.slide-content h1 {
+	    font-size: 36px;
+	    line-height: 46px;
+	}
+	.slide-content .btn {
+	    border-radius: 20px;
+	    padding: 8px 20px;
+	}
+
+	/* team section */
+	.team-memebr-info h6.desig {
+		padding-bottom: 10px;
+		margin-bottom: 15px;
+	}
+	.team-memebr-info p.intro {
+		margin-bottom: 15px;
+	}
+
+	/* page header */
+	.page-heading .page-title {
+		font-size: 36px;
+		line-height: 46px;
+	}
+	.page-heading .page-breadcrumb {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	/* blog details */
+	.blog-details .author-bio .author-image {
+		width: 80px;
+		margin-right: 20px;
+	}
+	.blog-details .author-bio .author-info {
+		margin-left: 100px;
+	}
+
+	/* comments & respond */
+	.comment-list .comment {
+		margin-top: 40px;
+	}
+	.comment .comment-meta .avatar {
+	    width: 70px;
+	    margin-right: 20px;
+	}
+	.comment .comment-meta .author,
+	.comment .comment-content {
+	    margin-left: 90px;
+	}
+	.comment .children {
+		padding-left: 90px;
+	}
+	.comment .reply {
+		margin-left: 90px;
+	}
+}
+
+
+/* ==========================================================================
+	Max width: 991px
+========================================================================== */
+@media only screen and (max-width: 991px) {
+	/* typography */
+	blockquote p {
+		font-size: 15px;
+		line-height: 25px;
+		margin-left: 30px;
+	}
+
+	/* buttons */
+	.btn.btn-md {
+		font-size: 14px;
+		line-height: 24px;
+		padding: 7px 26px;
+	}
+	.btn.btn-lg {
+		font-size: 16px;
+		line-height: 26px;
+		padding: 10px 20px;
+	}
+	input[type="submit"],
+	button[type="submit"] {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	/* section heading */
+	.section-title h2 {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.section-title h2::before {
+		width: 240px;
+	}
+	.section-title h2::after {
+		width: 45px;
+	}
+
+	/* main header */
+	.header-main {
+		padding-top: 15px;
+	}
+	.brand-logo img {
+		height: 60px;
+		width: auto;
+	}
+	.primary-menu {
+		padding: 0;
+	}
+
+	/* hero slider */
+	.slide-height {
+	    height: 600px;
+	}
+
+	/* donation section */
+	.table-donation td,
+	.table-donation th,
+	.table-donation thead th,
+	.table-donation thead td {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.table-donation td,
+	.table-donation th {
+	    padding: 20px 10px;
+	}
+	.table-donation thead td,
+	.table-donation thead th {
+	    padding: 10px 10px;
+	}
+
+	/* team section */
+	.team-memebr-image,
+	.team-memebr-info {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.team-memebr-info {
+		padding-top: 20px;
+	}
+
+	/* how it work section */
+	.video-area {
+		height: 400px;
+	}
+	.video-popup .icon {
+		font-size: 55px;
+	}
+	.video-popup h3.title {
+		font-size: 26px;
+		line-height: 36px;
+		margin-top: 30px;
+	}
+
+	/* contact section */
+	.contact-heading {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.contact-map-wrapper {
+	    height: 400px;
+	    width: 100%;
+	}
+
+	/* page header */
+	.page-header {
+		height: 400px;
+	}
+
+	/* blog details */
+	.blog-details .blog-header {
+		padding-left: 25px;
+	}
+	.blog-details .blog-header .title {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.blog-details .blog-content {
+		padding-left: 25px;
+	}
+	.blog-details .blog-footer {
+		padding-left: 25px;
+		padding-right: 20px;
+	}
+	.blog-details .blog-footer .blog-share-icon {
+		text-align: left;
+	}
+	.blog-details .author-bio .author-image {
+		width: 70px;
+	}
+	.blog-details .author-bio .author-info {
+		margin-left: 90px;
+	}
+	.blog-details .author-bio .author-info .title {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	/* comments & respond */
+	.comment-heading {
+		padding-left: 25px;
+		padding-right: 20px;
+	}
+	.comment-list {
+		padding: 0 0 0 25px;
+	}
+	.comment .comment-meta .avatar {
+		width: 50px;
+	}
+	.comment .comment-meta .author,
+	.comment .comment-content {
+		margin-left: 70px;
+	}
+	.comment .comment-meta .author .title {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.comment .comment-meta .author .time {
+		font-weight: 300;
+	}
+	.comment .reply {
+		margin-left: 70px;
+	}
+	.comment .children {
+		padding-left: 70px;
+	}
+	.respond-headding {
+		padding-left: 25px;
+		padding-right: 20px;
+	}
+	.respond-form {
+	    padding-left: 25px;
+	    padding-right: 20px;
+	}
+
+	/* sidebar & widgets */
+	.widget-title {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	/* scroll to up */
+	#scrollUp {
+		right: 30px;
+	}
+}
+
+
+/* ==========================================================================
+	Max width: 767px
+========================================================================== */
+@media only screen and (max-width: 767px) {
+	/* section heading */
+	.section-title h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.section-title h2::before {
+		width: 210px;
+	}
+	.section-title h2::after {
+		width: 40px;
+	}
+
+	/* header top */
+	.header-top {
+		padding: 10px 0;
+	}
+	.header-info,
+	.header-social {
+		text-align: center;
+		margin: 5px 0;
+	}
+
+	/* hero slider */
+	.slide-height {
+	    height: 550px;
+	}
+	.slide-content h2 {
+	    font-size: 22px;
+	    line-height: 32px;
+	}
+	.slide-content h1 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.slide-content p {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+	.slide-content .btn {
+	    padding: 7px 20px;
+	}
+	.slider-active .slick-dots {
+	    bottom: 20px;
+	}
+
+	/* portfolio section */
+	.portfolio-filter button {
+		padding: 3px 10px;
+	}
+
+	/* Donation section */
+	.dontaion-image img {
+		max-width: 70%;
+		height: auto;
+	}
+
+	/* team section */
+	.team-memebr-image,
+	.team-memebr-info {
+		-ms-flex: 0 0 50%;
+    	flex: 0 0 50%;
+    	max-width: 50%;
+	}
+	.team-memebr-info {
+		padding-top: 15px;
+	}
+
+	/* how it work section */
+	.video-area {
+		height: 300px;
+	}
+	.video-popup .icon {
+		font-size: 50px;
+	}
+	.video-popup h3.title {
+		font-size: 22px;
+		line-height: 32px;
+		margin-top: 25px;
+	}
+
+	/* news letter heading */
+	.news-letter-heading h3 {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.news-letter-heading h3 i.fab {
+		font-size: 20px;
+	}
+
+	/* contact section */
+	.contact-heading {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.contact-map-wrapper {
+	    height: 300px;
+	    width: 100%;
+	}
+
+	/* page header */
+	.page-header {
+		height: 300px;
+	}
+	.page-heading .page-title {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.page-heading .page-breadcrumb {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	/* footer & widgets */
+	.footer-widget .widget-title {
+		margin-bottom: 20px;
+	}
+	.footer-widget .widget-contact .logo {
+		margin-bottom: 20px;
+	}
+	.footer-copyright {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	/* scroll to up */
+	#scrollUp {
+		right: 15px;
+	}
+}
+
+
+/* ==========================================================================
+	Max width: 575px
+========================================================================== */
+@media only screen and (max-width: 575px) {
+	/* typography */
+	blockquote p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-left: 15px;
+	}
+
+	/* hero slider */
+	.slide-content h2 {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.slide-content h1 {
+	    font-size: 28px;
+	    line-height: 38px;
+	}
+
+	/* how it work section */
+	.video-popup h3.title {
+		font-size: 20px;
+		line-height: 30px;
+		margin-top: 20px;
+	}
+
+	/* newsletter section */
+	.subscribe-form input[type="email"] {
+		width: calc(100% - 110px);
+		max-width: 370px;
+	}
+
+	/* contact section */
+	.contact-form,
+	.contact-info {
+		padding: 50px 30px;
+	}
+
+	/* page header */
+	.page-heading .page-title {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	/* blog details */
+	.blog-details .blog-header {
+		padding-left: 20px;
+	}
+	.blog-details .blog-header .meta {
+		font-size: 13px;
+		line-height: 23px;
+	}
+	.blog-details .blog-header .title {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.blog-details .blog-content {
+		padding-left: 20px;
+	}
+}
+
+
+/* ==========================================================================
+	Max width: 499px
+========================================================================== */
+@media only screen and (max-width: 499px) {
+	/* donation section */
+	.table-donation td,
+	.table-donation th,
+	.table-donation thead th,
+	.table-donation thead td {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+
+	/* team section */	
+	.team-memebr-image,
+	.team-memebr-info {
+	    -ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.team-memebr-info {
+		padding-top: 20px;
+	}
+}
+
+
+/* ==========================================================================
+	Max width: 319px
+========================================================================== */
+@media only screen and (max-width: 319px) {
+	/* donation section */
+	.footer-widget .widget-gallery .gallery-item {
+		position: relative;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}

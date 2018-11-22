@@ -1,0 +1,139 @@
+/*
+
+  Template Name: Mosque - Responsive html5 template
+  Author: http://wprand.com/
+  Version: 1.0
+
+  NOTE: This is Color Scheme 1 style sheet of template.
+  
+*/
+
+/* ==========================================================================
+  1. Color for default style
+========================================================================== */
+a:focus,
+a:hover {
+    color: #F0392B;
+}
+.btn.btn-theme:hover,
+.btn.btn-theme:focus,
+.btn.btn-theme:active {
+    background: #F0392B;
+    border-color: #F0392B;
+}
+.btn.btn-outline-theme {
+    border-color: #F0392B;
+}
+.btn.btn-outline-theme:hover,
+.btn.btn-outline-theme:focus,
+.btn.btn-outline-theme:active {
+    background: #F0392B;
+    border-color: #F0392B;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+    color: #F0392B;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus {
+    border: 1px solid #F0392B;
+}
+input[type="submit"],
+button[type="submit"] {
+    background: #F0392B;
+    border: 1px solid #F0392B;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+    background: #D82012;
+    border: 1px solid #D82012;
+}
+textarea:focus {
+    border: 1px solid #F0392B;
+}
+.section-title h2:after {
+    background: #F0392B;
+}
+.primary-menu ul li ul {
+    border-bottom: 4px solid #F0392B;
+}
+.primary-menu ul li.active > a,
+.primary-menu ul li:hover > a {
+    color: #F0392B;
+}
+.slide-content .btn {
+    background: #F0392B;
+    border: 1px solid #F0392B;
+}
+.slide-content .btn:hover,
+.slide-content .btn:focus {
+    background: #D82012;
+    border-color: #D82012;
+}
+.slider-active button.slick-arrow:hover {
+    background: #F0392B;
+    border-color: #F0392B;
+}
+.portfolio-filter button:hover,
+.portfolio-filter button:focus,
+.portfolio-filter button:active,
+.portfolio-filter button.active {
+    color: #F0392B;
+}
+.table-donation {
+    background: #E64A19;
+}
+.team-memebr-image a::after {
+    background: #F0392B;
+}
+.video-popup a:hover .icon {
+    color: #F0392B;
+}
+.news-letter-heading h3 i.fab {
+    color: #F0392B;
+}
+.subscribe-form input[type="email"]:focus {
+    border: 1px solid #F0392B;
+}
+.mosque-pagination ul li a:hover,
+.mosque-pagination ul li a:focus,
+.mosque-pagination ul li a:active,
+.mosque-pagination ul li.current span {
+    background: #F0392B;
+    border: 1px solid #F0392B;
+}
+.blog-details .blog-header::before {
+    background: #F0392B;
+}
+.blog-details .blog-footer::before {
+    background: #F0392B;
+}
+.comment-heading::before {
+    background: #F0392B;
+}
+.respond-headding::before {
+    background: #F0392B;
+}
+.footer-widget .widget-contact .info ul li:hover i {
+    color: #F0392B;
+    border-color: #F0392B;
+}
+.footer-widget .widget-menu ul li a:hover::before {
+    background: #F0392B;
+}
+.footer-widget .widget-gallery .gallery-item a::after {
+    background: #F0392B;
+}
+.footer-bottom {
+    background: #F0392B;
+}
+#scrollUp:hover {
+    background: #F0392B;
+}
